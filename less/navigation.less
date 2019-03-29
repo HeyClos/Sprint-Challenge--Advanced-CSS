@@ -1,1 +1,40 @@
 // Navigation code here
+
+nav {
+    background-color: @nav-bg;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    //justify-content: center;
+    //padding: 20px auto;
+    padding: 1rem 0 1rem 0;
+}
+
+nav .nav-container {
+    width: 30%;
+}
+
+.nav-title {
+    //padding: .5rem 0 1.5rem 5rem;
+    text-align: center;
+}
+
+.nav-tabs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav a {
+    font-size: 14px;
+    color: @header-font-color;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+   // font: 1.5rem @header-font-color;
+}
