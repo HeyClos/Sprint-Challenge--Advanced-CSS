@@ -1,1 +1,18 @@
 // Mixins Here
+
+.custom-btn (@width: 10rem, @button-bg: @ebony-clay, @fontColor: @porcelain ) {
+    display: block;
+    cursor: pointer;
+    height: 35px;
+    padding: 9px 19px;
+    font-size: 18px;
+    border-radius: 6px;
+    width: @width;
+    background-color: @button-bg;
+    color: @fontColor;
+      
+    &:hover {
+      background-color: @fontColor;
+      color: @button-bg;
+    }
+}
